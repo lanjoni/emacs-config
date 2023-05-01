@@ -41,7 +41,7 @@
    '(("gnu" . "https://elpa.gnu.org/packages/")
      ("melpa" . "https://melpa.org/packages/")))
  '(package-selected-packages
-   '(doom-themes gruber-darker-theme rust-mode emmet-mode add-node-modules-path prettier-js web-mode react-snippets csharp-mode dockerfile-mode go-mode typescript-mode lsp-tailwindcss lsp-treemacs lsp-ui lsp-mode elcord almost-mono-themes svelte-mode projectile gdscript-mode all-the-icons flycheck company dashboard auto-complete)))
+   '(scala-mode php-mode elixir-mode clojure-mode treemacs doom-themes gruber-darker-theme rust-mode emmet-mode add-node-modules-path prettier-js web-mode react-snippets csharp-mode dockerfile-mode go-mode typescript-mode lsp-tailwindcss lsp-treemacs lsp-ui lsp-mode elcord almost-mono-themes svelte-mode projectile gdscript-mode all-the-icons flycheck company dashboard auto-complete)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

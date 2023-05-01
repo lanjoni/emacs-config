@@ -34,6 +34,10 @@
 (add-hook 'go-mode-hook #'lsp-install-save-hooks)
 (add-hook 'c-mode-hook #'lsp-install-save-hooks)
 (add-hook 'cpp-mode-hook #'lsp-install-save-hooks)
+(add-hook 'php-mode-hook #'lsp-install-save-hooks)
+(add-hook 'elixir-mode-hook #'lsp-install-save-hooks)
+(add-hook 'scala-mode-hook #'lsp-install-save-hooks)
+(add-hook 'clojure-mode-hook #'lsp-install-save-hooks)
 
 (lsp-register-custom-settings
  '(("gopls.completeUnimported" t t)

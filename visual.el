@@ -23,6 +23,8 @@
  :height 130)
 (put 'downcase-region 'disabled nil)
 
+(setq-default cursor-type 'bar)
+
 (provide 'lanjoni-visual)
 
 ;;; visual.el ends here

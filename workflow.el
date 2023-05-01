@@ -38,6 +38,8 @@
 (define-key global-map (kbd "M-a") 'backward-char)
 (define-key global-map (kbd "M-s") 'next-line)
 (define-key global-map (kbd "M-d") 'forward-char)
+(define-key global-map (kbd "M-t") 'treemacs)
+(define-key global-map (kbd "M-f") 'treemacs-project-follow-mode)
 
 ;; Ctrl-c Ctrl-v
 (cua-mode)
