@@ -39,6 +39,15 @@
 (add-hook 'scala-mode-hook #'lsp-install-save-hooks)
 (add-hook 'clojure-mode-hook #'lsp-install-save-hooks)
 
+(with-eval-after-load 'lsp-mode
+  (add-to-list 'lsp-language-id-configuration
+               '(crystal-mode . "crystal"))
+  (lsp-register-client
+  (make-lsp-client :new-connection (lsp-stdio-connection '("crystalline"))
+                   :activation-fn (lsp-activate-on "crystal")
+                   :priority '1
+                   :server-id 'crystalline)))
+
 (lsp-register-custom-settings
  '(("gopls.completeUnimported" t t)
    ("gopls.staticcheck" t t)))
