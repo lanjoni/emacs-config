@@ -7,16 +7,20 @@
 ;; author: João Augusto Lissoni Lanjoni <joaoaugustolanjoni@gmail.com>
 ;; date: Apr 30, 2023
 
+(add-to-list 'load-path (expand-file-name "~/.packages.emacs/awesome-tab"))
+
 ;;; Code:
 
 (require 'package)
 (require 'auto-complete)
-(require 'company)
+(require 'corfu)
 (require 'flycheck)
 (require 'projectile)
 (require 'all-the-icons)
 (require 'lsp-mode)
- 
+(require 'evil)
+(require 'awesome-tab)
+
 (custom-set-variables
  '(package-archives
    (quote (("gnu" . "https://elpa.gnu.org/packages/")

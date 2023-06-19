@@ -19,7 +19,7 @@
 
 (set-face-attribute
  'default nil
- :font "Iosevka Nerd Font Mono"
+ :font "JetBrainsMono Nerd Font"
  :height 130)
 (put 'downcase-region 'disabled nil)
 
