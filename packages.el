@@ -7,14 +7,21 @@
 ;; author: João Augusto Lissoni Lanjoni <joaoaugustolanjoni@gmail.com>
 ;; date: Apr 30, 2023
 
-(add-to-list 'load-path (expand-file-name "~/.packages.emacs/awesome-tab"))
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/plugins/awesome-tab"))
 
 ;;; Code:
 
 (require 'package)
 (require 'auto-complete)
 (require 'corfu)
-(require 'flycheck)
+(require 'flycheck-phpstan)
+(require 'flycheck-php-noverify)
+(require 'flycheck-ocaml)
+(require 'flycheck-crystal)
+(require 'flycheck-julia)
+(require 'flycheck-clojure)
+(require 'flycheck-elixir)
+(require 'flycheck-rust)
 (require 'projectile)
 (require 'all-the-icons)
 (require 'lsp-mode)
