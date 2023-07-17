@@ -71,6 +71,13 @@
 ;; Evil mode (VI layer)
 (evil-mode 1)
 
+;; Removing C-k binding for correction
+(eval-after-load "evil-maps"
+  (dolist (map '(evil-motion-state-map
+                 evil-insert-state-map
+                 evil-emacs-state-map))
+    (define-key (eval map) "\C-k" nil)))
+
 ;; Awesome tab
 (awesome-tab-mode t)
 
