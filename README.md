@@ -2,7 +2,7 @@
 
 Configuration files for my personal use.
 
-> Note: inside the `.emacs.d` directory there is a directory named `plugins` that receives all external plugins.
+> NOTE: inside the `.emacs.d` directory there is a directory named `plugins` that receives all external plugins.
 
 ## How can I use it
 
